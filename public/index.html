@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
       Only files inside the `public` folder can be referenced from the HTML.
@@ -24,12 +22,44 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
+  <title>SearchBox App</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="grid-container leader-2">
+    <div id="search-box-container" class="column-16 pre-4 post-4" data-app-config="search-config.json"></div>
+    <div>
+      <h5>Completed</h5>
+      <ul>
+        <li><code>language-manager.js</code> - a collection of languages (an array) of language selections.</li>
+        <li><code>locale-manager.js</code> - reads language property based on the selected language. Currently, each
+          language translation is a
+          json property. Ideally, this should be a collection of translated languages, i.e. an array of language object.
+        </li>
+      </ul>
+    </div>
+    <div>
+      <h5>To Do List</h5>
+      <ul>
+        <li><code>cookie-manager.js</code> - helps with cookie access and updates especially the selected language.
+          Selected language
+          can be determined from at least 5 different <i>locations</i>:
+          <ul>
+            <li><code>preflang</code> - cookie entry created and used by Doc Framework Team</li>
+            <li><code>
+                &ltmeta name="content-language" content="en"&gt</code> - page language set at build time or publish time
+              (?)
+            </li>
+            <li><code>rclg0</code> - cookie entry</li>
+            <li><code>esri#gnav_lang</code> - cookie entry by <i>global nav</i></li>
+            <li><code>esri#gnav_lang_alts</code> - cookie entry by <i>global nav</i></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -39,5 +69,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-  </body>
+</body>
+
 </html>

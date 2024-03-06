@@ -1,0 +1,252 @@
+[
+    {
+        "langCode": "en-us",
+        "display": "English (Global)",
+        "title": "English"
+    },
+    {
+        "langCode": "ar-sa",
+        "display": "عربي (Arabic)",
+        "title": "عربي"
+    },
+    {
+        "langCode": "ar-kw",
+        "display": "عربي (Arabic)",
+        "title": "عربي"
+    },
+    {
+        "langCode": "bs-ba",
+        "display": "Bosanski (Bosnian)",
+        "title": "Bosanski"
+    },
+    {
+        "langCode": "zh-cn",
+        "display": "简体中文 (Simplified Chinese)",
+        "title": "简体中文"
+    },
+    {
+        "langCode": "ca-es",
+        "display": "Catalan (Catalan)",
+        "title": "Catalan"
+    },
+    {
+        "langCode": "hr-hr",
+        "display": "Hrvatski (Croatian)",
+        "title": "Hrvatski"
+    },
+    {
+        "langCode": "cs-cz",
+        "display": "čeština (Czech)",
+        "title": "čeština"
+    },
+    {
+        "langCode": "da-dk",
+        "display": "Dansk (Danish)",
+        "title": "Dansk"
+    },
+    {
+        "langCode": "nl-nl",
+        "display": "Nederlands (Dutch)",
+        "title": "Nederlands"
+    },
+    {
+        "langCode": "et-ee",
+        "display": "Eesti (Estonian)",
+        "title": "Eesti"
+    },
+    {
+        "langCode": "fi-fi",
+        "display": "Suomi (Finnish)",
+        "title": "Suomi"
+    },
+    {
+        "langCode": "fr-fr",
+        "display": "Français (French)",
+        "title": "Français"
+    },
+    {
+        "langCode": "fr-ca",
+        "display": "Français (French)",
+        "title": "Français"
+    },
+    {
+        "langCode": "fr-ch",
+        "display": "Français (French)",
+        "title": "Français"
+    },
+    {
+        "langCode": "el-gr",
+        "display": "Ελλάδα (Greek)",
+        "title": "Ελλάδα"
+    },
+    {
+        "langCode": "de-de",
+        "display": "Deutsch (German)",
+        "title": "Deutsch"
+    },
+    {
+        "langCode": "de-ch",
+        "display": "Deutsch (German)",
+        "title": "Deutsch"
+    },
+    {
+        "langCode": "he-il",
+        "display": "עברית (Hebrew)",
+        "title": "עברית"
+    },
+    {
+        "langCode": "hi-in",
+        "display": "हिंदी (Hindi)",
+        "title": "हिंदी"
+    },
+    {
+        "langCode": "hu-hu",
+        "display": "Hungarian (Hungarian)",
+        "title": "Hungarian"
+    },
+    {
+        "langCode": "id-id",
+        "display": "Bahasa Indonesia (Indonesian)",
+        "title": "Bahasa Indonesia"
+    },
+    {
+        "langCode": "it-it",
+        "display": "Italiano (Italian)",
+        "title": "Italiano"
+    },
+    {
+        "langCode": "ja-jp",
+        "display": "日本語 (Japanese)",
+        "title": "日本語"
+    },
+    {
+        "langCode": "ko-kr",
+        "display": "한국어 (Korean)",
+        "title": "한국어"
+    },
+    {
+        "langCode": "lv-lv",
+        "display": "Latviešu (Latvian)",
+        "title": "Latviešu"
+    },
+    {
+        "langCode": "lt-lt",
+        "display": "Lietuvių (Lithuanian)",
+        "title": "Lietuvių"
+    },
+    {
+        "langCode": "no-no",
+        "display": "Norwegian (Norwegian)",
+        "title": "Norwegian"
+    },
+    {
+        "langCode": "nb-no",
+        "display": "Norsk (Norwegian)",
+        "title": "Norsk"
+    },
+    {
+        "langCode": "pl-pl",
+        "display": "Polski (Polish)",
+        "title": "Polski"
+    },
+    {
+        "langCode": "pt-br",
+        "display": "Portuguese (Brazil)",
+        "title": "Portuguese"
+    },
+    {
+        "langCode": "pt-pt",
+        "display": "Portuguese (Portugal)",
+        "title": "Portuguese"
+    },
+    {
+        "langCode": "ro-ro",
+        "display": "Română (Romanian)",
+        "title": "Română"
+    },
+    {
+        "langCode": "ru-ru",
+        "display": "Русский (Russian)",
+        "title": "Русский"
+    },
+    {
+        "langCode": "sr-rs",
+        "display": "Srpski (Serbian)",
+        "title": "Srpski"
+    },
+    {
+        "langCode": "sl-sl",
+        "display": "Slovenian (Slovenian)",
+        "title": "Slovenian"
+    },
+    {
+        "langCode": "sk-sk",
+        "display": "Slovenčina (Slovenčina)",
+        "title": "Slovenčina"
+    },
+    {
+        "langCode": "es-es",
+        "display": "Español (Spanish)",
+        "title": "Español"
+    },
+    {
+        "langCode": "es-co",
+        "display": "Colombia (Spanish)",
+        "title": "Colombia"
+    },
+    {
+        "langCode": "es-ec",
+        "display": "Ecuador (Spanish)",
+        "title": "Ecuador"
+    },
+    {
+        "langCode": "es-pa",
+        "display": "Panama (Spanish)",
+        "title": "Panama"
+    },
+    {
+        "langCode": "sv-se",
+        "display": "Svenska (Swedish)",
+        "title": "Svenska"
+    },
+    {
+        "langCode": "th-th",
+        "display": "ไทย (Thai)",
+        "title": "ไทย"
+    },
+    {
+        "langCode": "zh-tw",
+        "display": "繁體中文（香港） (Traditional Chinese (Taiwan))",
+        "title": "繁體中文（香港）"
+    },
+    {
+        "langCode": "zh-hk",
+        "display": "繁體中文（台灣） (Traditional Chinese (Hong Kong))",
+        "title": "繁體中文（台灣）"
+    },
+    {
+        "langCode": "tr-tr",
+        "display": "Türkçe (Turkish)",
+        "title": "Türkçe"
+    },
+    {
+        "langCode": "uk-ua",
+        "display": "Українська (Ukrainian)",
+        "title": "Українська"
+    },
+    {
+        "langCode": "vi-vn",
+        "display": "Tiếng Việt (Vietnamese)",
+        "title": "Tiếng Việt"
+    },
+    {
+        "langCode": "en-ca",
+        "display": "English (Canadian)",
+        "title": "English"
+    },
+    {
+        "langCode": "en-ke",
+        "display": "English (Eastern Africa)",
+        "title": "English"
+    }
+]

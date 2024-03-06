@@ -1,0 +1,330 @@
+{
+  "servers": [
+    {
+      "key": "dev",
+      "url": "//esearchapistg.esri.com/search"
+    },
+    {
+      "key": "prd",
+      "url": "//esearchapi.esri.com/search"
+    },
+    {
+      "key": "stg",
+      "url": "//esearchapistg.esri.com/search"
+    }
+  ],
+  "filters": {
+    "collection": {
+      "key": "collection",
+      "label": "collection",
+      "entries": [
+        {
+          "key": "all",
+          "title": "All Collections",
+          "query": {
+            "requiredFields": "search-collection:help|search-collection:forums|search-collection:videos",
+            "partialFields": ""
+          }
+        },
+        {
+          "key": "help",
+          "title": "Help",
+          "query": {
+            "requiredFields": "search-collection:help",
+            "partialFields": ""
+          }
+        },
+        {
+          "key": "videos",
+          "title": "Videos",
+          "query": {
+            "requiredFields": "search-collection:videos",
+            "partialFields": ""
+          }
+        }
+      ]
+    },
+    "product": {
+      "key": "product",
+      "label": "product",
+      "entries": [
+        {
+          "key": "any",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "product:arcgis-enterprise-windows|product:arcgis-enterprise-linux|product:arcgis-server-cloud|product:arcgis-server-amazon|product:arcgis-server-linux|product:arcgis-server-windows|product:arcgis - portal - linux|product:arcgis-portal-windows|product:arcgis-server-azure|product:ext-server-geoevent|product:ext-server-reviewer|product:ext-server-workflow|product:ext-server-pipeline|product:ext-server-roads|product:inspire|product:monitor|product:streetmap-premium|product:geoanalytics|product:arcgis-mission|product:image-server|product:arcgis-indoors|product:notebook-server|product:notebook-server-windows|product:notebook-server-linux|product:excalibur"
+          }
+        },
+        {
+          "type": "optgroup",
+          "key": "arcgis-for-server"
+        },
+        {
+          "key": "arcgis-enterprise-linux",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-enterprise-linux)"
+          }
+        },
+        {
+          "key": "arcgis-enterprise-windows",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-enterprise-windows)"
+          }
+        },
+        {
+          "key": "arcgis-server-cloud",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-server-cloud)"
+          }
+        },
+        {
+          "key": "arcgis-server-amazon",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-server-amazon)"
+          }
+        },
+        {
+          "key": "arcgis-server-azure",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-server-azure)"
+          }
+        },
+        {
+          "key": "arcgis-mission",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-mission)"
+          }
+        },
+        {
+          "key": "arcgis-server-linux",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-server-linux)"
+          }
+        },
+        {
+          "key": "arcgis-server-windows",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-server-windows)"
+          }
+        },
+        {
+          "key": "arcgis-data-interop",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-data-interop)"
+          }
+        },
+        {
+          "key": "image-server",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:image-server)"
+          }
+        },
+        {
+          "key": "maritime-server-linux",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:maritime-server-linux)"
+          }
+        },
+        {
+          "key": "maritime-server-windows",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:maritime-server-windows)"
+          }
+        },
+        {
+          "key": "notebook-server",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:notebook-server)"
+          }
+        },
+        
+        {
+          "key": "arcgis-portal-linux",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-portal-linux)"
+          }
+        },
+        {
+          "key": "arcgis-portal-windows",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-portal-windows)"
+          }
+        },
+        {
+          "type": "optgroup",
+          "key": "optional-capabilities"
+        },
+        {
+          "key": "arcgis-indoors",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:arcgis-indoors)"
+          }
+        },
+        {
+          "key": "ext-server-reviewer",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:ext-server-reviewer)"
+          }
+        },
+        {
+          "key": "excalibur",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:excalibur)"
+          }
+        },
+        {
+          "key": "ext-server-geoevent",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:ext-server-geoevent)"
+          }
+        },
+        {
+          "key": "monitor",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:monitor)"
+          }
+        },
+        {
+          "key": "ext-server-pipeline",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:ext-server-pipeline)"
+          }
+        },
+        {
+          "key": "ext-server-roads",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:ext-server-roads)"
+          }
+        },
+        {
+          "key": "ext-server-workflow",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:ext-server-workflow)"
+          }
+        },
+        {
+          "type": "optgroup",
+          "key": "related-products"
+        },
+        {
+          "key": "inspire",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:inspire)"
+          }
+        },
+        {
+          "key": "geoanalytics",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:geoanalytics)"
+          }
+        },
+        {
+          "key": "streetmap-premium",
+          "query": {
+            "requiredFields": "",
+            "partialFields": "(product:streetmap-premium)"
+          }
+        }
+      ]
+    },
+    "version": {
+      "key": "version",
+      "label": "version",
+      "entries": [
+        {
+          "key": "11.1",
+          "query": {
+            "requiredFields": "version:11.1"
+          }
+        },
+        {
+          "key": "11",
+          "query": {
+            "requiredFields": "version:11"
+          }
+        },
+        {
+          "key": "10.9.1",
+          "query": {
+            "requiredFields": "version:10.9.1"
+          }
+        },
+        {
+          "key": "10.9",
+          "query": {
+            "requiredFields": "version:10.9"
+          }
+        },
+        {
+          "key": "10.8",
+          "query": {
+            "requiredFields": "version:10.8"
+          }
+        },
+        {
+          "key": "10.7",
+          "query": {
+            "requiredFields": "version:10.7"
+          }
+        },
+        {
+          "key": "10.6",
+          "query": {
+            "requiredFields": "version:10.6"
+          }
+        },
+        {
+          "key": "10.5",
+          "query": {
+            "requiredFields": "version:10.5"
+          }
+        },
+        {
+          "key": "10.4",
+          "query": {
+            "requiredFields": "version:10.4"
+          }
+        },
+        {
+          "key": "10.3",
+          "query": {
+            "requiredFields": "version:10.3"
+          }
+        }
+      ]
+    }
+  },
+  "languageLookupList": "language-lookup-list.json",
+  "localeLookupList": "locale-lookup-list.json",
+  "client": "resourcesbeta",
+  "collection": "arcgis_server_col",
+  "index": "esri_all",
+  "pageSize": 15,
+  "oe": "utf8",
+  "searchBox": { "placeholderText": "search-arcgis", "titleText": "search"}
+}
